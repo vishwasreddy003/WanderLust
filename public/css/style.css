@@ -1,0 +1,144 @@
+/* navbar */
+body{
+  font-family: "Ysabeau Infant", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass{
+    color: #fe422d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important; 
+}
+
+.rotate-icon {
+    transition: transform 0.3s ease-in-out;
+}
+
+.rotate-icon:hover{
+    transform: rotate(25deg);
+}
+
+/* Footer */
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links,.f-info-socials,.f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.f-info-socials i{
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+
+
+.f-info-links a :hover{
+    text-decoration: underline;
+}
+
+.f-info{
+    height: 8rem;
+    text-align: center;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1.2rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text{
+    font-weight: 400;
+    text-align: justify;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.3;
+    background-color: white;
+}
+
+input::placeholder{
+    opacity: 0.4 !important;
+}
+
+.add-btn{
+    background-color: #fe422d !important;
+    border: none !important;
+}
+
+.edit-btn{
+    background-color: #fe422d !important;
+    border: none !important;
+}
+
+.show-img{
+    height: 30vh;
+}
+
+
+.btns{
+    display: flex;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.custom-image-container {
+    width: 730px;
+    height: 300px;
+    overflow: hidden; /* Ensures any overflow content is hidden */
+  }
+  
+  .custom-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+    object-position: center; /* Centers the image within the container */
+  }
+  
